@@ -48,6 +48,6 @@ public class Runner {
         System.out.println("qwerty");
     }
     static void takeMyMoney() {
-        System.out.println("qwerty");
+        System.out.println("qwerty123");
     }
 }
