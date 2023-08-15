@@ -34,6 +34,7 @@ public class Runner {
         hello();
         qwerty();
         takeMyMoney();
+        spec();
     }
 
     static void go(){
@@ -49,5 +50,9 @@ public class Runner {
     }
     static void takeMyMoney() {
         System.out.println("qwerty123");
+    }
+
+    static void spec() {
+        System.out.println("123");
     }
 }
