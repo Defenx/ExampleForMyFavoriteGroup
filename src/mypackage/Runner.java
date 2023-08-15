@@ -30,5 +30,10 @@ public class Runner {
 
         //сами придумайте пример
 
+        hello();
+    }
+
+    static void hello() {
+        System.out.println("hello");
     }
 }
