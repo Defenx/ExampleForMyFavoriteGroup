@@ -46,4 +46,8 @@ public class Runner {
     static void qwerty() {
         System.out.println("qwerty");
     }
+
+    public void connectfailedMethod() {
+        System.out.println("My text");
+    }
 }
