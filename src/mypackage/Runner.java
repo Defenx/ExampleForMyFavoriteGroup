@@ -50,4 +50,7 @@ public class Runner {
     static void takeMyMoney() {
         System.out.println("qwerty123");
     }
+    static void giveMyMoney() {
+        System.out.println("qwerty123");
+    }
 }
