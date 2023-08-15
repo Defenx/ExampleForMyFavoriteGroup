@@ -33,6 +33,7 @@ public class Runner {
         go();
         hello();
         qwerty();
+        takeMyMoney();
     }
 
     static void go(){
@@ -44,6 +45,9 @@ public class Runner {
     }
 
     static void qwerty() {
+        System.out.println("qwerty");
+    }
+    static void takeMyMoney() {
         System.out.println("qwerty");
     }
 }
