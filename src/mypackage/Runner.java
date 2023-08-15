@@ -32,6 +32,7 @@ public class Runner {
 
         go();
         hello();
+        qwerty();
     }
 
     static void go(){
@@ -40,5 +41,9 @@ public class Runner {
 
     static void hello() {
         System.out.println("hello");
+    }
+
+    static void qwerty() {
+        System.out.println("qwerty");
     }
 }
