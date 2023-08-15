@@ -11,8 +11,6 @@ public class Runner {
 
     public static void main(String[] args) {
 
-        LocalTime now = LocalTime.now();
-
         //Date - не используем
         //Calendar -- используемый, но редко
 
@@ -30,15 +28,7 @@ public class Runner {
         //Duration
 
 
-        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("dd MMMM yyyy", Locale.ENGLISH);
-
-        LocalDate parse = LocalDate.parse("08 July 2023", dateTimeFormatter);
-        System.out.println(parse);
-
-        LocalTime now1 = LocalTime.now();
-
-        Duration between = Duration.between(now, now1);
-        System.out.println(between.getNano());
+        //сами придумайте пример
 
     }
 }
