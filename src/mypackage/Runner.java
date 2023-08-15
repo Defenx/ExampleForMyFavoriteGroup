@@ -46,4 +46,8 @@ public class Runner {
     static void qwerty() {
         System.out.println("qwerty");
     }
+
+    static  void myMethod(){
+
+    }
 }
